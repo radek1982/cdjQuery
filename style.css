@@ -1,0 +1,62 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+#header{
+background-color:#026aa7;
+display: flex;
+
+}
+
+h1{
+    color: #3194ce;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.button{
+    display: inline-block;
+    max-width: 200px;
+    width: 100px;
+    background-color: rgba(0, 255, 255, 0.521);
+    height: 50px;
+    color: rgb(59, 3, 3);
+    text-align: center;
+
+
+}
+
+.button#new {
+    display: inline-block;
+    justify-self: flex-end;
+}
+
+#main {
+    background:#efefef;
+    display: flex;
+}
+
+.track {
+    flex-basis: 300px;
+}
+
+.note {
+    background:pink;
+    min-height: 100px;
+    border: 1px solid black;
+}
+
+.note.selected {
+    background:yellow;
+    border:1px solid red;
+}
+
+#toggleSearch {
+    width:100px;
+    background:pink;
+}
+ 
+.note#note_template {
+    background:yellow;
+}
